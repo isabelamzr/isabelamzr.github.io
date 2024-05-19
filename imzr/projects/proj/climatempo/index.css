@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  background-size: cover;
+}
+
+.main-box {
+  width: 420px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #ffff;
+  border-radius: 3rem;
+  padding: 30px 40px;
+  backdrop-filter: blur(18px);
+  margin: auto;
+  box-sizing: border-box;
+  min-height: 50vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  
+}
+
+.main-box h2 {
+  font-size: 1.9rem;
+  text-align: center;
+  width: auto;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.input-town {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  padding: 0.6rem;
+  border-radius: 3rem;
+  font-size: 1rem;
+  color: #ffff;
+  background-color: transparent;
+  min-width: calc(100% - 80px);
+  width: auto;
+}
+
+.input-town input::placeholder {
+  color: #ffff;
+}
+
+.img-search {
+  width: 30px;
+}
+
+.button-search {
+  border: none;
+  outline: none;
+  padding: 6px;
+  border: 50px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.medium-box {
+  margin-top: 1rem;
+}
+
+.temperature {
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+.small-box {
+  display: flex;
+  align-items: center;
+}
+
+.img-weather-prevision {
+  height: 4rem;
+  margin-left: 0.4rem;
+}
+
+.text-weather-prevision {
+  font-size: 1.4rem;
+  margin-left: 0.3rem;
+  text-transform: capitalize;
+  
+}
+
+.moisture {
+  font-size: 1.3rem;
+  margin-left: 1.1rem;
+ 
+}

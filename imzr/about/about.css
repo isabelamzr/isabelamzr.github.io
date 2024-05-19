@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ 
+}
+
+@font-face {
+  font-family: pastelorange;
+  src: url(/font/Pastel\ Orange.otf);
+  font-family: pastelorange2;
+  src: url(/font/Pastel\ Orange.ttf);
+
+}
+
+
+/*NAV BAR*/
+
+.nav{
+    background: #faf8f800;
+    font-family: pastelorange2;
+    z-index: 100;
+   display: flex;
+   justify-content: space-around;
+  min-width: 100%;
+  position: fixed;
+ 
+  }
+
+ .nav a:nth-child(3) {
+  font-size: 3rem;
+ 
+ }
+
+ .nav::after{
+
+ }
+
+ a {
+  text-decoration: none;
+  color: #f3f2f2; 
+  font-size: 1.8rem;
+  font-weight: 400; 
+  padding: 0px 25px; 
+ align-content: center;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/88a7749b-f9cc-4823-a005-6a5a762e5e20.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+main::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(2, 2, 2, 0.651);
+  position: absolute;
+  
+}
+
+.container {
+  position: relative;
+  text-align: start;
+  width: 80%;
+  padding: 40px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.308);
+  
+
+}
+
+h3 {
+  font-family: pastelorange2;
+  letter-spacing: 4rem;
+  font-size: 5rem;
+  color: #f3f2f2;
+  font-weight: 300;
+}
+
+p {
+  font-family: pastelorange1;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  color: #f3f2f2;
+}
